@@ -1,47 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Lexend+Peta&display=swap" rel="stylesheet">
-  <link rel = "stylesheet" type="text/css" href="assets/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-   
-  <title>Trivia Game</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Peta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Trivia Game</title>
 </head>
 
 <body>
     <div class="container">
-    <h1>Trivia Game!</h1>
+        <h1>Trivia Game!</h1>
 
-    <div class="time-remaining">
-    Time Remaining:
-</div>
-</div>
-<br>
-<div class="question-one">
-<p>Q. How is Robert Zimmerman better known?</p>
-<button>Bob Dylan</button>
-<button>Robert Plant</button>
+        <div class="time-remaining">
+            Time Remaining:
+        </div>
+    </div>
+    <br>
+    <div class="question-one">
+        <p>Q. How is Robert Zimmerman better known?</p>
+        <button class="button-true">Bob Dylan</button>
+        <button class="button-false">Robert Plant</button>
+        <button class="button-false">Paul McCartney</button>
 
-</div>
+    </div>
 
-<div class="question-two">
+    <div class="question-two">
         <p>Q. Michael Stipe is the lead singer of which rock group?</p>
-</div>
+        <button id="button-false">Nirvana</button>
+        <button id="button-true">R.E.M.</button>
+        <button id="button-false">The Smashing Pumpkins</button>
+    </div>
+    <div class="question-three">
+        <p>Q. What was Elvis Presley's first hit in 1956??</p>
+        <button id="button-false">Little Sister</button>
+        <button id="button-true">Heartbreak Hotel</button>
+        <button id="button-false">Jailhouse Rock</button>
+    </div>
 
-</div>
+    <div class="question-four">
+        <p>Q. Guitarist George Harrison was a member of which influential rock group??</p>
+        <button id="button-true">The Beatles</button>
+        <button id="button-false">The Rolling Stones</button>
+        <button id="button-false">Led Zeppelin</button>
+    </div>
+
+    </div>
 
 
 
 
     <script type="javascipt" src="/assets/app.js"></script>
 </body>
+
 </html>
-
-
