@@ -3,6 +3,9 @@ $(document).ready(function () {
   console.log("Hello");
 
   var time = 30;
+  var winner=0;
+  var loser=0;
+
 
 
   $(".timer").text("Time Remaining: " + time);
@@ -26,4 +29,5 @@ $(document).ready(function () {
   $("#button-false").click(function () {
     alert("Hell No!");
   });
+
 });
