@@ -28,5 +28,7 @@ $( "#button-true" ).click(function() {
   alert( "Hell Yeah!" );
 
 });
+$( "#button-false" ).click(function() {
+  alert( "Hell No!" );
 })
-
+})
