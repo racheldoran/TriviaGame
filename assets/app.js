@@ -1,10 +1,15 @@
 var time = 30;
+var questionOne;
+var questionTwo;
+var questionThree;
 
-function start (){
-    interval=setInterval(decrement, 30000);
+$("#time").append("<h2>Time Remaining" + time, "</h2>");
 
-    function decrement (){
-        time--;
-        $("#time").html("<h2> Time Remaining" + time "</h2>")
-    }
+
+if (questionOne === "button-true")
+alert("YEAH!!");
+
+{ else {
+    alert("HELL NO!");
+}
 }
