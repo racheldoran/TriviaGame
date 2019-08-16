@@ -4,33 +4,32 @@ $(document).ready(function () {
 
 
   //  Variable that will hold our setInterval that runs the stopwatch
-  var buttonTrue = true;
-  var buttonFalse = false;
+var buttonTrue = true;
+var buttonFalse = false;
 
 
 
-  var time = 30;
+var time = 30;
 
 
-  $(".timer").text("Time Remaining: " + time);
+$(".timer").text("Time Remaining: " + time);
 
-  var intervalId = setInterval(count, 3000)
-  function count() {
-    $(".timer").html("Time Remaining: " + time);
-    time--;
-  }
+var intervalId = setInterval(count, 3000)
+function count(){
+  $(".timer").html("Time Remaining: " + time);
+time--;
+}
+if (time < 0) {
+  $(".questions").hide();
+  clearInterval(intervalId)
+}
 
-  if (time < 0) {
-    $(".questions").hide();
-    clearInterval(intervalId)
-  }
+$( "#button-true" ).click(function() {
+  alert( "Hell Yeah!" );
 
-  $("#button-true").click(function () {
-    alert("Hell Yeah!");
+});
 
-  });
-
-  $("#button-false").click(function () {
-    alert("Hell No!");
-  });
+$( "#button-false" ).click(function() {
+  alert( "Hell No!" );
+})
 })
