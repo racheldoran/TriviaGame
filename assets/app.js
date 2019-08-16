@@ -4,10 +4,12 @@ window.onload = function() {
 
   //  Variable that will hold our setInterval that runs the stopwatch
 var intervalId;
+var buttonTrue;
+var buttonFalse;
 
 // prevents the clock from being sped up unnecessarily
 var clockRunning = false;
-var time = 0;
+var time = 30;
 
 
 function reset() {
@@ -24,7 +26,7 @@ function start() {
 
   // DONE: Use setInterval to start the count here and set the clock to running.
   if (!clockRunning) {
-    intervalId = setInterval(count, 1000);
+    intervalId = setInterval(count, 30000);
     clockRunning = true;
   }
 }
@@ -34,4 +36,6 @@ function stop() {
   clearInterval(intervalId);
   clockRunning = false;
 }
-  
+  if {
+    
+  }
