@@ -7,9 +7,10 @@ var intervalId;
 var buttonTrue;
 var buttonFalse;
 
-// prevents the clock from being sped up unnecessarily
-var clockRunning = false;
+
 var time = 30;
+
+$(".timer").html("Time Remaining " + time);
 
 
 function reset() {
@@ -18,7 +19,8 @@ function reset() {
 
 
   // DONE: Change the "display" div to "00:00."
-  $(".time").text("30");
+  $("#time").html("30");
+  $(":button-true").input(buttonTrue)
 
 
 }
@@ -36,13 +38,8 @@ function stop() {
   clearInterval(intervalId);
   clockRunning = false;
 }
-if (buttonTrue) {
-  alert("TRUE");
-}
 
-else if (buttonFalse) {
-  alert("HELL NO")
+$( "#button-true" ).click(function() {
+  alert( "Hell Yeah!" );
 
-  $("#button-true").append(buttonTrue)
-
-  
+});
