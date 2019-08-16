@@ -1,22 +1,25 @@
 body{
     
     font-family: 'Lexend Peta', sans-serif;
-    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/JETFf6K/simple-background-diamond-l2-color-4k_enmbuhamdg__F0000.png");
+    background-image: url("https://luckydesignlady.files.wordpress.com/2014/09/finalprettypattern.png");
+    
 } 
 
 h1{
     font-family: 'Lobster', cursive;
+    
 }
 
 .container{
    text-align:center;
    font-weight: bold;
+  
+   
 }
 
 #button-true, #button-false, #start {
-    background-color: #4CAF50;
+    background-color:lightblue;
     border: none;
-    color: white;
     padding: 10px 30px;
     text-align: center;
     text-decoration: none;
