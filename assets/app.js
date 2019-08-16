@@ -1,15 +1,9 @@
-var time = 30;
-var questionOne;
-var questionTwo;
-var questionThree;
+var timeRemaing = 30;
 
-$("#time").append("<h2>Time Remaining" + time, "</h2>");
+setTimeout(thirtySeconds, 1000 * 3);
 
-
-if (questionOne === "button-true")
-alert("YEAH!!");
-
-{ else {
-    alert("HELL NO!");
-}
-}
+function thirtySeconds() {
+    // in the element with an id of time-left add an h2 saying About 10 Seconds Left!
+    // console log 10 seconds left
+    $("#time").append("<h2>Time Remaining</h2>");
+  
