@@ -1,11 +1,37 @@
-var setTimeout = 30;
+window.onload = function() {
+    $("#start").on("click", start);
+  };
 
-setTimeout(thirtySeconds, 1000 * 3);
+  //  Variable that will hold our setInterval that runs the stopwatch
+var intervalId;
 
-function thirtySeconds() {
-    // in the element with an id of time-left add an h2 saying About 10 Seconds Left!
-    // console log 10 seconds left
-    $("#timer").append("<h2>Time Remaining</h2>");
-    
+// prevents the clock from being sped up unnecessarily
+var clockRunning = false;
+var time = 0;
+
+
+function reset() {
+
+  time = 0;
+
+
+  // DONE: Change the "display" div to "00:00."
+  $("#display").text("30");
+
+
+}
+function start() {
+
+  // DONE: Use setInterval to start the count here and set the clock to running.
+  if (!clockRunning) {
+    intervalId = setInterval(count, 1000);
+    clockRunning = true;
+  }
+}
+function stop() {
+
+  // DONE: Use clearInterval to stop the count here and set the clock to not be running.
+  clearInterval(intervalId);
+  clockRunning = false;
 }
   
