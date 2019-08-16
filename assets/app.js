@@ -14,7 +14,7 @@ var time = 30;
 
 $(".timer").text("Time Remaining: " + time);
 
-var intervalId = setInterval(count, 30000)
+var intervalId = setInterval(count, 3000)
 function count(){
   $(".timer").html("Time Remaining: " + time);
 time--;
