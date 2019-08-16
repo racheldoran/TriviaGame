@@ -36,6 +36,13 @@ function stop() {
   clearInterval(intervalId);
   clockRunning = false;
 }
-  if {
-    
-  }
+if (buttonTrue) {
+  alert("TRUE");
+}
+
+else if (buttonFalse) {
+  alert("HELL NO")
+
+  $("#button-true").append(buttonTrue)
+
+  
