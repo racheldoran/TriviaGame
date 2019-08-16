@@ -18,7 +18,7 @@ function reset() {
 
 
   // DONE: Change the "display" div to "00:00."
-  $("#display").text("30");
+  $("#time").text("30");
 
 
 }
