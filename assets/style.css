@@ -1,4 +1,5 @@
 body{
+    font-display: bold;
     font-family: 'Lexend Peta', sans-serif;
     background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/JETFf6K/simple-background-diamond-l2-color-4k_enmbuhamdg__F0000.png");
 } 
@@ -11,15 +12,15 @@ h1{
    text-align:center;
 }
 
-.button {
+#button-true, #button-false, #start {
     background-color: #4CAF50;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 4px 2px;
     cursor: pointer;
   }
