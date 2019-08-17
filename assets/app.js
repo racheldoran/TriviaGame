@@ -3,8 +3,8 @@ $(document).ready(function () {
   console.log("Hello");
 
   var time = 30;
-  var winner=0;
-  var loser=0;
+  var winner = document.getElementById("wins");
+  var loser = document.getElementById("losses");
 
 
 
@@ -29,5 +29,7 @@ $(document).ready(function () {
   $("#button-false").click(function () {
     alert("Hell No!");
   });
+
+ 
 
 });
