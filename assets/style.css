@@ -17,7 +17,7 @@ h1{
    
 }
 
-#button-true, #button-false, #start {
+button, #start {
     background-color:lightblue;
     border: none;
     padding: 10px 30px;
