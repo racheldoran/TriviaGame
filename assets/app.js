@@ -3,12 +3,16 @@ $(document).ready(function () {
   console.log("Hello");
 
   var time = 30;
-  var winner = document.getElementById("wins");
-  var loser = document.getElementById("losses");
+  var winner = 0;
+  var losses = 0;
+  
 
 
 
   $(".timer").text("Time Remaining: " + time);
+  $(".wins").text("Wins: " + winner)
+  $(".losses").text("Losses " + losses)
+  console.log(winner)
 
   var intervalId = setInterval(count, 3000)
   function count() {
@@ -23,11 +27,11 @@ $(document).ready(function () {
 
   $("#button-true").click(function () {
     alert("Hell Yeah!");
-
   });
 
   $("#button-false").click(function () {
     alert("Hell No!");
+    
   });
 
  
