@@ -1,6 +1,4 @@
 body{
-    
-    font-family: 'Lexend Peta', sans-serif;
     background-image: url("https://luckydesignlady.files.wordpress.com/2014/09/finalprettypattern.png");
     
 } 
@@ -12,7 +10,8 @@ h1{
 
 .container{
    text-align:center;
-   font-weight: bold;
+   font-family: 'Bree Serif', serif;
+   
   
    
 }
