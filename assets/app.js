@@ -5,6 +5,8 @@ $(document).ready(function () {
   var time = 30;
   var winner = 0;
   var loser = 0;
+  var question = true;
+  var otherQuestion = false;
   
   $(".timer").text("Time Remaining: " + time);
   $(".wins").html("Wins: " + winner)
@@ -20,6 +22,7 @@ $(document).ready(function () {
     $(".questions").hide();
     clearInterval(intervalId)
   }
+
 
   //Question One//
   $("#bob-dylan").click(function () {
