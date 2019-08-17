@@ -19,6 +19,7 @@ $(document).ready(function () {
 
   if (time === 0) {
     $(".questions").hide();
+    $("#start").hide();
     clearInterval(setTimer)
   }
 
